@@ -1,0 +1,21 @@
+SECTION 1 ___________________________________________________________________________________________________________________________________
+//THE FOLLOWING COMMANDS ONLY WORK ON COMMAND PROMPT AND NOT POWERSHELL
+conda create -p venv python==3.10 // creates a new conda environment, will create a bunch of files. 
+  //Even tho we have python 3.13 installed, we are going to be using python 3.10 for this section
+
+conda activate venv/  //this activates your conda environment, MIGHT BE "conda activate C:\Users\dator\OneDrive\Desktop\Tutorials\Complete_Data_Science_Machine_Learning_DL_NLP_Bootcamp\code\venv"
+
+// create a requirements.txt file for your dependencies (packages)
+pip install -r requirements.txt // installs your dependencies (packages)
+
+pip install ipykernel //need this to run python code in ipynb files
+
+SECTION 2 ___________________________________________________________________________________________________________________________________
+conda create -p venv python==3.13 //it is best to create a seperate environment for every project
+
+python -m venv <folder environment name, ex: myenv> //alternate way of creating an environment, creates different files tho (not using this command in projects)
+myenv\Scripts\activate //this activates the environment from the alternative command above (not using this command in projects)
+
+deactivate //deactivates your currently activated environment
+
+cls //clears your terminal
