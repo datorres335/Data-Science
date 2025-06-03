@@ -1,3 +1,7 @@
+//source code
+https://github.com/krishnaik06/Complete-Data-Science-With-Machine-Learning-And-NLP-2024
+https://github.com/krishnaik06/Complete-Python-Bootcamp
+
 SECTION 1 ____________________________________________________________________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________
 //THE FOLLOWING COMMANDS ONLY WORK ON COMMAND PROMPT AND NOT POWERSHELL
@@ -10,6 +14,7 @@ conda activate venv/  //this activates your conda environment, MIGHT BE "conda a
 pip install -r requirements.txt // installs your dependencies (packages)
 
 pip install ipykernel //need this to run python code in ipynb files, DON'T NEED TO RUN THIS COMMAND IF YOU HAVE ipykernel inside of requirements.txt
+
 
 SECTION 2 ____________________________________________________________________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________
